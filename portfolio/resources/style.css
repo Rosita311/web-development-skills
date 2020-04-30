@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: 100px;
+}
+
+h1, h2 {
+    color: #eb0000;
+    text-align: center;
+}
+
+
+h3 {
+    color: #109e9e;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* WordPress section */
+
+#blog {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.wordpress {
+    display: block;
+    margin: 0 20px 0 0;
+    width: 400px;
+    height: 200px;
+    
+}
+  
+#blue {
+    background-color: #D4E9E9;
+    padding: 5px;
+    overflow: hidden;
+    width: 400px;
+    /* height is 10 pixels less because of the 5px padding */
+    height: 159px;
+}
+
+
+/* Codecademy */
+
+#learn {
+    display: inline-grid;
+    grid-gap: 20px;
+    align-items: space-between;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+#current {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #D4E9E9;
+    height: 352px;
+    padding: 5px;
+    
+}
+
+footer {
+    background-color: #D4E9E9;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
